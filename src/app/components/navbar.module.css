@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    opacity: 0.9;
+    background-color:rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(192, 191, 191);
+}
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+.none{
+    text-decoration: none;
+    color: black;
+
+}
+
+.title {
+    margin-left: 0.5rem;
+    font-size:32px;
+}
+
+.navList {
+    display: flex;
+    justify-content: center; }
+
+.navList li {
+    list-style-type: none;
+    margin: 0 1rem; /* Adjust margin as needed */
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+}
